@@ -1,6 +1,6 @@
-import Modal from "../../commons/modal"
+import Modal from "commons/modal"
 import { useState } from "react";
-import styles from "../../../styles/components/pages/EditModal.module.css"
+import styles from "../styles/components/pages/EditModal.module.css"
 
 const EditModal = (props) => {
     if (!props.isActive) return <></>;

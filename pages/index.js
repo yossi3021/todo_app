@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Todo from "../components/commons/Todo.js";
-import EditModal from "../components/pages/index/EditModal.js";
+import EditModal from "../components/EditModal.js";
 import styles from "../styles/Index.module.css";
 
 const Home = () => {
