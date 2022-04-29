@@ -1,0 +1,48 @@
+.modal {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.modal__inner{
+    background-color: #fff;
+    padding: 30px;
+    width: 70%;
+    height: 90%;
+    border-radius: 20px;
+}
+
+.modal__inner__contents{
+    padding: 25px;
+}
+
+/*close_but*/
+.modal__inner__close{
+    width: 25px;
+    height: 25px;
+    margin-left: auto;
+    position: relative;
+}
+.modal__inner__close:hover{
+    cursor: pointer;
+}
+.modal__inner__close__line{
+    background-color: #333;
+    width: 2px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 50%;
+}
+.modal__inner__close__line:nth-child(1) {
+    transform: rotate(45deg);
+}
+.modal__inner__close__line:nth-child(2) {
+    transform: rotate(-45deg);
+}

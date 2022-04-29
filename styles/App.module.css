@@ -1,0 +1,7 @@
+.main {
+    width: 70%;
+    padding: 15px;
+    margin: 10px auto;
+    background: #ddd;
+    min-height: 100vh;
+}
